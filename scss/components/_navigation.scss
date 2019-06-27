@@ -1,0 +1,32 @@
+.pp-c-navigation__list {
+    display: flex;
+    flex-direction: column;
+
+    @include respond(tablet) {
+        flex-direction: row;
+    }
+}
+
+.pp-c-navigation__item {
+    list-style: none;
+
+    &:not(:last-child) {
+        margin-bottom: 1.5rem;
+
+        @include respond (tablet) {
+            margin-bottom: 0;
+            margin-right: 2.5rem;
+        }
+    }
+}
+
+.pp-c-navigation__link {
+    text-decoration: none;
+    color: $color-blue;
+    font-size: 3.3rem;
+    font-family: $secondary-font;
+
+    &:hover {
+        color: $color-gray-dark;
+    }
+}

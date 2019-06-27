@@ -1,0 +1,18 @@
+.pp-l-header {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-white;
+    padding: 4rem;
+    position: fixed;
+
+    @include respond(tablet) {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.pp-l-header--scroll {
+    padding: 2rem;
+    opacity: 0.9;
+}

@@ -1,0 +1,18 @@
+.pp-c-site-logo {
+    display: block;
+
+}
+
+.pp-c-site-logo__img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+
+    @include respond (tablet) {
+        max-width: 90%;
+    }
+
+    @include respond (desk) {
+        max-width: 60%;
+    }
+}

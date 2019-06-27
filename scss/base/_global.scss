@@ -1,0 +1,16 @@
+html {
+
+    font-size: 50%; // 1rem = 8px;
+
+    @include respond(tablet) {
+        font-size: 60%;
+    }
+
+    @include respond (desk) {
+        font-size: 62.5%;
+    }
+}
+
+body {
+    text-align: center;
+}
