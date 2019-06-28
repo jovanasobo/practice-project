@@ -2,13 +2,14 @@
     display: flex;
     flex-direction: column;
     background-color: $color-white;
-    padding: 4rem;
-    position: fixed;
+    padding: 5rem 4rem;
+    // position: fixed;
+
 
     @include respond(tablet) {
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
     }
 }
 
