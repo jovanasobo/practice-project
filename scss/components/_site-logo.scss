@@ -1,5 +1,10 @@
 .pp-c-site-logo__link {
     display: inherit;
+    margin-bottom: 2rem;
+
+    @include respond (tablet) {
+        margin-bottom: 0;
+    }
 }
 
 .pp-c-site-logo__img {

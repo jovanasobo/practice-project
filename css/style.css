@@ -31,7 +31,11 @@ body {
   opacity: 0.9; }
 
 .pp-c-site-logo__link {
-  display: inherit; }
+  display: inherit;
+  margin-bottom: 2rem; }
+  @media (min-width: 600px) {
+    .pp-c-site-logo__link {
+      margin-bottom: 0; } }
 
 .pp-c-site-logo__img {
   max-width: 100%;
@@ -62,38 +66,42 @@ body {
 .pp-c-navigation__link {
   text-decoration: none;
   color: #0090CC;
-  font-size: 3.3rem;
+  font-size: 2.3rem;
   font-family: "Open Sans", sans-serif; }
   .pp-c-navigation__link:hover {
     color: #909090; }
+  @media (min-width: 900px) {
+    .pp-c-navigation__link {
+      font-size: 3rem; } }
 
 .pp-c-home {
-  padding: 7rem 0;
+  padding: 10rem 0;
   background-color: #0090CC; }
   @media (min-width: 600px) {
     .pp-c-home {
-      padding: 8.5rem 0; } }
+      padding: 12rem 0; } }
   @media (min-width: 900px) {
     .pp-c-home {
-      padding: 10rem 0; } }
+      padding: 15rem 0; } }
 
 .pp-c-home__heading {
   color: #fff;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 1px;
-  margin-bottom: 2rem; }
+  margin-bottom: 4rem; }
   @media (min-width: 600px) {
     .pp-c-home__heading {
-      font-size: 4rem; } }
+      font-size: 5.3rem;
+      margin-bottom: 6rem; } }
   @media (min-width: 900px) {
     .pp-c-home__heading {
-      font-size: 5.3rem; } }
+      font-size: 7rem; } }
 
 .pp-c-home__paragraf {
   color: #fff;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
   letter-spacing: 1px;

@@ -1,36 +1,37 @@
 .pp-c-home {
-    padding: 7rem 0;
+    padding: 10rem 0;
     background-color: $color-blue;
 
     @include respond (tablet) {
-        padding: 8.5rem 0;
+        padding: 12rem 0;
     }
 
     @include respond (desk) {
-        padding: 10rem 0;
+        padding: 15rem 0;
     }
 }
 
 .pp-c-home__heading {
     color: $color-white;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     font-family: $secondary-font;
     letter-spacing: 1px;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 
     @include respond (tablet) {
-        font-size: 4rem;
+        font-size: 5.3rem;
+        margin-bottom: 6rem;
     }
 
     @include respond (desk) {
-        font-size: 5.3rem;
+        font-size: 7rem;
     }
 }
 
 .pp-c-home__paragraf {
     color: $color-white;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: $secondary-font;
     font-weight: 500;
     letter-spacing: 1px;
