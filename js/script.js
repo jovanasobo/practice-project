@@ -1,4 +1,4 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
 
 
     $(window).on("scroll", function () {
@@ -8,4 +8,4 @@ $(document).ready(function () {
             $(".pp-l-header").removeClass("pp-l-header--scroll");
         }
     });
-});
+}); */

@@ -38,7 +38,7 @@
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
-    animation: typing 5s steps(30, end);
+    animation: typing 7s steps(30, end);
 
     @include respond (tablet) {
         font-size: 3rem;
