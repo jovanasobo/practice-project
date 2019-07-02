@@ -1,13 +1,13 @@
 $(document).ready(function () {
 
 
-    /*$(window).on("scroll", function () {
+    $(window).on("scroll", function () {
         if ($(window).scrollTop() > 50) {
             $(".pp-l-header").addClass("pp-l-header--scroll");
         } else {
             $(".pp-l-header").removeClass("pp-l-header--scroll");
         }
-    });*/
+    });
 
     $('.pp-c-careers-dropdown').each(function () {
         var $dropdown = $(this);

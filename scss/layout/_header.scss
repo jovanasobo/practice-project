@@ -3,13 +3,14 @@
     flex-direction: column;
     background-color: $color-white;
     padding: 5rem 4rem;
-    // position: fixed;
 
 
     @include respond(tablet) {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        position: fixed;
+        z-index: 1;
     }
 }
 

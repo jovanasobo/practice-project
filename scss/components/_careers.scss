@@ -2,12 +2,15 @@
     background-color: $color-gray;
     padding: 6rem 1.5rem;
 
-    @include respond (tablet) {
-        padding: 7rem 3.5rem;
-    }
 
     @include respond (tablet) {
+        padding: 7rem 3.5rem;
+        @include fix;
+    }
+
+    @include respond (desk) {
         padding: 10rem 5.5rem;
+        top: 14.1rem;
     }
 }
 
@@ -107,7 +110,7 @@
     }
 
     @include respond (tablet) {
-        font-size: 1.7rem;
+        font-size: 1.9rem;
 
         &:not(:last-child) {
             margin-bottom: 4rem;
@@ -115,7 +118,7 @@
     }
 
     @include respond (desk) {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
 
     }
 }

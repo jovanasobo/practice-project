@@ -7,12 +7,16 @@
     padding: 3rem 3rem 6rem 3rem;
     ;
 
+
+
     @include respond (tablet) {
-        padding: 0.5rem 4rem 8rem 4rem;
+        padding: 6rem 0 8rem 0;
+        @include fix;
     }
 
     @include respond (desk) {
-        padding: 0.5rem 6rem 16rem 6rem;
+        padding: 8rem 0 13rem 0;
+        top: 14.1rem;
     }
 }
 
@@ -61,10 +65,12 @@
     font-family: $secondary-font;
 
     @include respond (tablet) {
-        font-size: 2rem;
+        padding: 0 6rem;
+        font-size: 1.7rem;
     }
 
     @include respond (desk) {
-        font-size: 2.4rem;
+        padding: 0 20rem;
+        font-size: 1.9rem;
     }
 }

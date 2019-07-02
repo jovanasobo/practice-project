@@ -2,12 +2,16 @@
     padding: 10rem 0;
     background-color: $color-blue;
 
+
+
     @include respond (tablet) {
         padding: 12rem 0;
+        @include fix;
     }
 
     @include respond (desk) {
         padding: 15rem 0;
+        top: 14.1rem;
     }
 }
 

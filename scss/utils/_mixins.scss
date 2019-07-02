@@ -25,3 +25,8 @@
 
     }
 }
+
+@mixin fix {
+    position: relative;
+    top: 13.3rem;
+}
