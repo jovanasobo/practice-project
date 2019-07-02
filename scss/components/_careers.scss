@@ -1,0 +1,121 @@
+.pp-c-careers {
+    background-color: $color-gray;
+    padding: 6rem 1.5rem;
+
+    @include respond (tablet) {
+        padding: 7rem 3.5rem;
+    }
+
+    @include respond (tablet) {
+        padding: 10rem 5.5rem;
+    }
+}
+
+.pp-c-careers__heading {
+    color: $color-blue;
+    margin-bottom: 3rem;
+
+    &::after {
+        background-color: $color-gray-dark;
+        top: 8.8rem;
+    }
+
+    @include respond (desk) {
+        &::after {
+            top: 10.4rem;
+        }
+
+        ;
+    }
+
+}
+
+.pp-c-careers-dropdown {
+    padding: 2rem;
+
+    &:not(:last-child) {
+        margin-bottom: 5rem;
+    }
+}
+
+.pp-c-careers-dropdown__link {
+    text-decoration: none;
+    color: $color-blue;
+    font-size: 2rem;
+    display: block;
+    font-weight: 600;
+    font-family: $primary-font;
+
+    @include respond (tablet) {
+        font-size: 2.5rem;
+    }
+
+    @include respond (desk) {
+        font-size: 3.2rem;
+    }
+}
+
+.pp-c-careers-dropdown__container {
+    display: none;
+    padding: 1rem 2rem;
+
+    @include respond (tablet) {
+        padding: 1rem 3.2rem;
+
+    }
+
+    @include respond (desk) {
+        padding: 2rem 8rem;
+
+    }
+
+}
+
+.pp-c-careers-dropdown__paragraf {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: $color-gray-dark;
+    margin: 1rem 0;
+    text-align: left;
+
+    @include respond (tablet) {
+        font-size: 2rem;
+    }
+
+    @include respond (desk) {
+        font-size: 2.8rem;
+    }
+
+}
+
+.pp-c-careers-dropdown__list {
+    padding: 1rem 3rem;
+
+    @include respond (desk) {
+        padding: 1rem 6rem;
+
+    }
+}
+
+.pp-c-careers-dropdown__item {
+    list-style: disc;
+    font-size: 1.4rem;
+    color: $color-gray-dark;
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+
+    @include respond (tablet) {
+        font-size: 1.7rem;
+
+        &:not(:last-child) {
+            margin-bottom: 4rem;
+        }
+    }
+
+    @include respond (desk) {
+        font-size: 2.5rem;
+
+    }
+}

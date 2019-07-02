@@ -4,6 +4,7 @@
   box-sizing: border-box; }
 
 html {
+  scroll-behavior: smooth;
   font-size: 50%; }
   @media (min-width: 600px) {
     html {
@@ -176,3 +177,86 @@ body {
   @media (min-width: 900px) {
     .pp-c-about-us__paragraf {
       font-size: 2.4rem; } }
+
+.pp-c-careers {
+  background-color: #F2F2F1;
+  padding: 6rem 1.5rem; }
+  @media (min-width: 600px) {
+    .pp-c-careers {
+      padding: 7rem 3.5rem; } }
+  @media (min-width: 600px) {
+    .pp-c-careers {
+      padding: 10rem 5.5rem; } }
+
+.pp-c-careers__heading {
+  color: #0090CC;
+  margin-bottom: 3rem; }
+  .pp-c-careers__heading::after {
+    background-color: #909090;
+    top: 8.8rem; }
+  @media (min-width: 900px) {
+    .pp-c-careers__heading::after {
+      top: 10.4rem; } }
+
+.pp-c-careers-dropdown {
+  padding: 2rem; }
+  .pp-c-careers-dropdown:not(:last-child) {
+    margin-bottom: 5rem; }
+
+.pp-c-careers-dropdown__link {
+  text-decoration: none;
+  color: #0090CC;
+  font-size: 2rem;
+  display: block;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif; }
+  @media (min-width: 600px) {
+    .pp-c-careers-dropdown__link {
+      font-size: 2.5rem; } }
+  @media (min-width: 900px) {
+    .pp-c-careers-dropdown__link {
+      font-size: 3.2rem; } }
+
+.pp-c-careers-dropdown__container {
+  display: none;
+  padding: 1rem 2rem; }
+  @media (min-width: 600px) {
+    .pp-c-careers-dropdown__container {
+      padding: 1rem 3.2rem; } }
+  @media (min-width: 900px) {
+    .pp-c-careers-dropdown__container {
+      padding: 2rem 8rem; } }
+
+.pp-c-careers-dropdown__paragraf {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #909090;
+  margin: 1rem 0;
+  text-align: left; }
+  @media (min-width: 600px) {
+    .pp-c-careers-dropdown__paragraf {
+      font-size: 2rem; } }
+  @media (min-width: 900px) {
+    .pp-c-careers-dropdown__paragraf {
+      font-size: 2.8rem; } }
+
+.pp-c-careers-dropdown__list {
+  padding: 1rem 3rem; }
+  @media (min-width: 900px) {
+    .pp-c-careers-dropdown__list {
+      padding: 1rem 6rem; } }
+
+.pp-c-careers-dropdown__item {
+  list-style: disc;
+  font-size: 1.4rem;
+  color: #909090; }
+  .pp-c-careers-dropdown__item:not(:last-child) {
+    margin-bottom: 3rem; }
+  @media (min-width: 600px) {
+    .pp-c-careers-dropdown__item {
+      font-size: 1.7rem; }
+      .pp-c-careers-dropdown__item:not(:last-child) {
+        margin-bottom: 4rem; } }
+  @media (min-width: 900px) {
+    .pp-c-careers-dropdown__item {
+      font-size: 2.5rem; } }
