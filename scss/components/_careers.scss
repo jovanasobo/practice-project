@@ -2,7 +2,6 @@
     background-color: $color-gray;
     padding: 6rem 1.5rem;
 
-
     @include respond (tablet) {
         padding: 7rem 3.5rem;
         @include fix;
@@ -27,8 +26,6 @@
         &::after {
             top: 10.4rem;
         }
-
-        ;
     }
 
 }
@@ -71,7 +68,6 @@
         padding: 2rem 8rem;
 
     }
-
 }
 
 .pp-c-careers-dropdown__paragraf {
@@ -88,7 +84,6 @@
     @include respond (desk) {
         font-size: 2.8rem;
     }
-
 }
 
 .pp-c-careers-dropdown__list {

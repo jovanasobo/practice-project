@@ -1,0 +1,23 @@
+.pp-l-footer {
+    padding: 5rem;
+    background-color: $color-blue;
+
+    @include respond (tablet) {
+        @include fix;
+        padding: 7rem;
+    }
+
+    @include respond (desk) {
+        top: 14.1rem;
+        padding: 9rem;
+    }
+}
+
+.pp-l-footer__paragraf {
+    color: $color-white;
+    font-size: 2rem;
+
+    @include respond (tablet) {
+        font-size: 2.3rem;
+    }
+}

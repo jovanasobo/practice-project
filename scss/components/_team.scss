@@ -1,0 +1,109 @@
+.pp-c-team {
+    background-color: $color-white;
+    padding: 3rem;
+
+    @include respond (tablet) {
+        @include fix;
+    }
+
+    @include respond (desk) {
+        padding: 10rem 7rem;
+        top: 14.1rem;
+    }
+}
+
+.pp-c-team__heading {
+    color: $color-blue;
+
+    &::after {
+        background-color: $color-gray-dark;
+        top: 8.8rem;
+    }
+
+    @include respond (desk) {
+        &::after {
+            top: 10.4rem;
+        }
+    }
+
+}
+
+.pp-c-team-members {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem;
+
+    @include respond (tablet) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 0;
+    }
+}
+
+.pp-c-members__template {
+    @include respond (tablet) {
+        flex: 50% 0 1;
+    }
+
+    @include respond (desk) {
+        flex: 30% 0 0;
+    }
+}
+
+.pp-c-team-member {
+    padding: 5rem;
+    margin-right: 2rem;
+
+    @include respond (desk) {
+        padding: 3rem;
+    }
+}
+
+.pp-c-team-member__img {
+    width: 100%;
+    height: auto;
+
+}
+
+.pp-c-team-member__name {
+    color: $color-gray-dark;
+    font-family: $secondary-font;
+    font-size: 2.3rem;
+    font-weight: 700;
+    padding: 0.8rem 0;
+
+    @include respond (desk) {
+        font-size: 2.6rem;
+    }
+}
+
+.pp-c-team-member__job {
+    color: $color-gray-font;
+    font-family: $secondary-font;
+    font-size: 2rem;
+    font-weight: 500;
+
+    @include respond (desk) {
+        font-size: 2.2rem;
+    }
+}
+
+.pp-c-team-member__social {
+    margin-top: 1rem;
+}
+
+.pp-c-team-member__icon {
+    font-size: 3rem;
+    color: $color-blue;
+    margin-right: 1.5rem;
+
+    @include respond (desk) {
+        font-size: 3.5rem;
+    }
+}
+
+.pp-c-team-members--hidden {
+    display: none;
+}

@@ -25,4 +25,32 @@ $(document).ready(function () {
     $('html').click(function () {
         $(".pp-c-careers-dropdown__container").hide();
     });
+
+    var teamMemebers = [];
+
+    $.getJSON("..//..//data.json", function (json) {
+        teamMemebers = json.team_members;
+
+
+        var $memberSection = $('#member_section');
+        var $tmpl = $('#members__template');
+
+        for (var i = 0; i < teamMemebers.length; i++) {
+            var member = teamMemebers[i];
+            var $localTemplate = $tmpl.clone();
+            $localTemplate.id = 'member' + i;
+            $localTemplate.removeClass('pp-c-team-members--hidden');
+            var $img = $localTemplate.find('.pp-c-team-member__img');
+            $img.attr('src', member.picture_data[0].src);
+            $img.attr('alt', member.picture_data[0].alt);
+
+            var $name = $localTemplate.find('.pp-c-team-member__name');
+            $name.text(member.name);
+            $memberSection.append($localTemplate)
+            var $job = $localTemplate.find('.pp-c-team-member__job');
+            $job.text(member.role);
+        }
+
+    });
+
 });
